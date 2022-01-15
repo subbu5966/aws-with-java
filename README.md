@@ -19,10 +19,10 @@ Two ways to build aws client.
 4) get1kFromSubFolder - To get 1000 object sub/nested folders like rootbucket/rootfolder/subfolder1/file1.json etc
 
 	 virtually s3 object can have infinite number of objects, but it's not
-	 possible to load all at once into collection. The max limit to is 1000
+	 possible to load all at once into collection. The max limit is 1000
 	 object, means if we use getObjectSummaries() method it will return only 1000
 	 objects. In order to collect all the object in to list we need to use
 	 getNextContinuationToken(), this will act like pagination and load object
-	 page by page. One page container 1k objects.
+	 page by page. One page contains 1k objects.
 	 page by page. One page container 1k objects.
 
