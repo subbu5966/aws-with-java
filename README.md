@@ -24,5 +24,5 @@ Two ways to build aws client.
 	 objects. In order to collect all the object in to list we need to use
 	 getNextContinuationToken(), this will act like pagination and load object
 	 page by page. One page contains 1k objects.
-	 page by page. One page container 1k objects.
+	
 
